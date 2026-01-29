@@ -3,10 +3,12 @@
 AS
 BEGIN
 	SELECT	[BookId], 
-			[Title],
+			[Title], 
 			[Author],
 			[ReleaseDate], 
-			[ISBN]
+			[ISBN],
+			[RegisteredDate],
+			[DisabledDate]
 		FROM [Book]
 		WHERE [BookId] = @bookId
 END

@@ -5,6 +5,8 @@ BEGIN
 			[Title], 
 			[Author],
 			[ReleaseDate], 
-			[ISBN]
+			[ISBN],
+			[RegisteredDate],
+			[DisabledDate]
 		FROM [Book]
 END
